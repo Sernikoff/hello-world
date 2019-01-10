@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caculator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets\caculya.css">
+
+</head>
+<body>
+<script src="javascripts\caculya.js"></script>
+<div class="text-center">
+
+    <h1>Calculator</h1>
+    <div id = "calculator" class="container">
+        <h5>Electronic Calculator</h5>
+        <div id = "out">
+            <snap id = "outpanel">0</snap>
+        </div>
+
+        <div id = "button">
+            <div class="row">
+                <div class="col-sm-3">
+                    <button id="ac"  type="button" class="btn btn-danger">AC</button>
+                </div>
+                <div class="col-sm-3">
+                    <button id="ce" class="btn btn-danger">CE</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-warning">%</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-primary" value="/">:</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <button class="btn btn-info" value="7">7</button>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-info" value="8">8</button>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-info" value="9">9</button>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary" value="*">*</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <button class="btn btn-info" value="4">4</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-info" value="5">5</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-info" value="6">6</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-primary" value="-">-</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <button class="btn btn-info" value="1">1</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-info" value="2">2</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-info" value="3">3</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-primary" value="+">+</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <button class="btn btn-secondary">M</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-info" value="0">0</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-info" value=".">.</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-success">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
